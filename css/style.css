@@ -79,13 +79,14 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding:4.8rem 0 9.6rem 0;
 }
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding:0 3.2rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   align-items: center;
 }
@@ -180,10 +181,33 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
 }
-.delivered-span {
+.delivered-text span {
   color: #e67e22;
   font-weight: 600;
 }
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
 .section-how {
   padding: 9.6rem 0;
 }
@@ -228,4 +252,113 @@ body {
 }
 .step-img {
   width: 35%;
+}
+
+
+.section-meals{
+  padding: 9.6rem 0;
+}
+.meal{
+  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.meal:hover{
+  transform: translateY(-1.2rem);
+}
+.meal-content{
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.meal-tags{
+  margin-bottom: 1.2rem;
+}
+.tag{
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+}
+ 
+.meal-title{
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meal-attribute{
+  font-size: 1.8rem;
+}
+.meal-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+  font-size: 2.4rem;
+}
+.meal-img{
+  width: 100%;
+}
+.list{
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+}
+.list-item{
+  font-size: 1.8rem;
+display: flex;
+align-items: center;
+gap: 1.6rem;
+
+
+}
+.list-icon{
+  width: 3rem;
+  height: 3rem ;
+  color: #e67e22;
+}
+.link:link,
+.link:visited{
+  color: #e67e22;
+  text-decoration: none;
+}
+.margin-right-sm{
+  margin-right: 1.6rem !important;
+}
+.margin-bottom-md{
+  margin-bottom: 4.8rem !important;
+}
+.center-text{
+  text-align: center;
+}
+.all-recipes{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.testimonials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.testimonial-img{
+  width:6.4rem;
+  border-radius: 50%;
+
 }

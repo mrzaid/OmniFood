@@ -10,7 +10,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -37,7 +37,9 @@
             healthy again. Tailored to your personal tastes and nutritional
             needs. We have delivered 250,000+ meals last year!
           </p>
-          <a href="#" class="btn btn--full">Start eating well</a>
+          <a href="#" class="btn btn--full margin-right-sm"
+            >Start eating well</a
+          >
           <a href="#" class="btn btn--outline">Learn more &darr;</a>
           <div class="delivered-meals">
             <div class="delivered-imgs">
@@ -56,6 +58,7 @@
         </div>
       </div>
     </section>
+
     <section class="section-featured">
       <div class="container">
         <h2 class="heading-featured-in">As featured in</h2>
@@ -65,8 +68,6 @@
           <img src="img/logos/the-new-york-times.png" alt="new york" />
           <img src="img/logos/forbes.png" alt="forbes" />
           <img src="img/logos/usa-today.png" alt="usa-today" />
-
-
         </div>
       </div>
     </section>
@@ -134,6 +135,186 @@
           />
         </div>
       </div>
+    </section>
+    <section class="section-meals">
+      <div class="container center-text">
+        <span class="subheading"> Meals</span>
+        <h2 class="heading-secondary">
+          Omnifood AI chooses from 5,000+ recipes
+        </h2>
+      </div>
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/meals/meal-1.jpg" alt="meal image 1" />
+          <div class="meal-content">
+            <span class="tag">Vegetarian</span>
+            <p class="meal-title">Japanese Gyozas</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>650
+                Calories
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon
+                >NutriScore &reg; 74
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>4.9
+                rating (537)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="meal">
+          <img src="img/meals/meal-2.jpg" alt="meal image 1" />
+          <div class="meal-content">
+            <span class="tag">Vegan</span>
+            <span class="tag">Paleo</span>
+            <p class="meal-title">Avocado Salad</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>400
+                Calories
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon
+                >NutriScore &reg; 92
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>4.8
+                rating (441)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="diets">
+          <h3 class="heading-tertiary">Works with any diet</h3>
+          <ul class="list">
+            <li class="list-item">
+              <span>
+                <ion-icon name="checkmark-outline"></ion-icon>Vegetarian</span
+              >
+            </li>
+            <li class="list-item">
+              <span><ion-icon name="checkmark-outline"></ion-icon>Vegan</span>
+            </li>
+            <li class="list-item">
+              <span
+                ><ion-icon name="checkmark-outline"></ion-icon>Pescatarian</span
+              >
+            </li>
+            <li class="list-item">
+              <span
+                ><ion-icon name="checkmark-outline"></ion-icon>Gluten-free</span
+              >
+            </li>
+            <li class="list-item">
+              <span
+                ><ion-icon name="checkmark-outline"></ion-icon
+                >Lactose-free</span
+              >
+            </li>
+            <li class="list-item">
+              <span><ion-icon name="checkmark-outline"></ion-icon>Keto</span>
+            </li>
+            <li class="list-item">
+              <span><ion-icon name="checkmark-outline"></ion-icon>Paleo</span>
+            </li>
+            <li class="list-item">
+              <span
+                ><ion-icon name="checkmark-outline"></ion-icon>Low FODMAP</span
+              >
+            </li>
+            <li class="list-item">
+              <span
+                ><ion-icon name="checkmark-outline"></ion-icon
+                >Kid-friendly</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container all-recipes">
+        <a href="#" class="link">See all recipes &rarr;</a>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <section class="section-testimonials grid grid--2-cols">
+      <div class="testimonial-container">
+        <span class="subheading"> Meals</span>
+        <h2 class="heading-secondary">
+          Omnifood AI chooses from 5,000+ recipes
+        </h2>
+
+        <div class="testimonials">
+          <figure>
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Dave Bryson"
+              src="img/customers/dave.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to order manually! It feels truly magical.
+            </blockquote>
+
+            <p class="testimonial-name">&mdash; Dave Bryson</p>
+          </figure>
+          <figure>
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Dave Bryson"
+              src="img/customers/ben.jpg"
+            />
+            <blockquote class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for me
+              every time. It's amazing not to worry about food anymore!
+            </blockquote>
+
+            <p class="testimonial-name">&mdash; Ben Hadley</p>
+          </figure>
+          <figure>
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Dave Bryson"
+              src="img/customers/steve.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Omnifood is a life saver! I just started a company, so there's no
+              time for cooking. I couldn't live without my daily meals now!
+            </blockquote>
+
+            <p class="testimonial-name">&mdash; Steve Miller</p>
+          </figure>
+          <figure>
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Dave Bryson"
+              src="img/customers/hannah.jpg"
+            />
+            <blockquote class="testimonial-text">
+              I got Omnifood for the whole family, and it frees up so much time!
+              Plus, everything is organic and vegan and without plastic.
+            </blockquote>
+
+            <p class="testimonial-name">&mdash; Hannah Smith</p>
+          </figure>
+        </div>
+      </div>
+      <div class="gallery">Gallery</div>
     </section>
   </body>
 </html>
